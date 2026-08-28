@@ -1,6 +1,6 @@
 variable "ami_id" {
   type        = string
-  default     = "ami-09c813fb71547fc4f"
+  default     = "ami-0225644bfadc204f7"
   description = "AMI ID of joindevops RHEL9"
 }
 
@@ -59,7 +59,7 @@ variable "instances" {
 }
 
 variable "zone_id" {
-  default = "Z07765362AYDJ93CC402A"
+  default = "Z08868581OGQ5IOUCAXOU"
 }
 
 variable "domain_name" {
