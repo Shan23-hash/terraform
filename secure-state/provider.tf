@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "secure-state-test"
+    bucket = "ks-secure-state-test"
     key    = "secure"
     region = "us-east-1"
     encrypt        = true
